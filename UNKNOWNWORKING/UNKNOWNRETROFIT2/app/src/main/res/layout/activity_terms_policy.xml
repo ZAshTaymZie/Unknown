@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greyb"
+    tools:context=".Terms_policy">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006"
+        app:srcCompat="@drawable/baseline_b">
+
+
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="104dp"
+        android:text="Terms and Policy"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+
+    </TextView>
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <TextView
+            android:id="@+id/termsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:scrollbars="vertical"
+            android:text="Terms and Conditions\n\n
+   1. Acceptance of Terms\n
+       By accessing and using \The Unknown\ application, you agree to comply with and be bound by the following terms and conditions. If you do not agree to these terms, you may not use the Service.\n\n
+   2. Use of the Service\n
+       You agree to use the Service only for lawful purposes and in a way that does not infringe the rights of, restrict, or inhibit anyone else’s use of the Service. Prohibited behavior includes harassing or causing distress to any person, transmitting obscene or offensive content, or disrupting the normal flow of communication within the Service.\n\n
+   3. Termination\n
+       We reserve the right to terminate or suspend your account and access to the Service at our sole discretion, without prior notice or liability, for any reason, including but not limited to a breach of the Terms.\n\n
+   4. Changes to the Terms\n
+       We may modify the Terms at any time, and such modifications shall be effective immediately upon posting the modified Terms on the Service. Your continued use of the Service after any such changes constitutes your acceptance of the modified Terms.\n\n\n
+Privacy Policy\n\n
+   1. Introduction\n
+       At The Unknown, we respect your privacy and are committed to protecting the personal information you provide to us. This Privacy Policy outlines how we collect, use, and secure your information when you use our Service.\n\n
+   2. Information We Collect\n
+       We collect your Personal information:\n
+       Personal Information: When you register or interact with our Service, we collect information such as your email address and nickname.\n\n
+   3. Sharing Your Information\n
+       We do not sell, trade, or otherwise transfer your personal information to outside parties, only The Unknown will have access:\n\n
+   4. Data Security\n
+       We take reasonable precautions to protect your information. However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security.\n\n
+   5. Changes to the Privacy Policy\n
+       We may update this Privacy Policy from time to time. We will notify you of any changes by posting the updated Privacy Policy on this page."
+            android:textColor="@android:color/black"
+            android:textSize="16sp"></TextView>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

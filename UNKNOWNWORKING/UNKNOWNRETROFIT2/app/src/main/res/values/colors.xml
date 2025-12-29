@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#D9D9D9</color>
+    <color name="light_purple">#EBD3F8</color>
+    <color name="purple">#ececec</color>
+    <color name="Electric_blue">#2391FF</color>
+
+    <!-- Define your primary color -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Primary brand colors -->
+    <color name="primary_light">#FFFFFF</color> <!-- Main background color (white) -->
+    <color name="primary_variant_light">#F0F0F0</color> <!-- Lighter variant for highlights -->
+    <color name="on_primary_light">#000000</color> <!-- Text on primary background (black) -->
+
+    <!-- Secondary colors -->
+    <color name="secondary_light">#6200EE</color> <!-- Accent color (purple) -->
+    <color name="on_secondary_light">#FFFFFF</color> <!-- Text on secondary background (white) -->
+
+    <!-- Error color -->
+    <color name="error_light">#B00020</color>
+    <color name="on_error_light">#FFFFFF</color>
+
+    <!-- Background and surface colors -->
+    <color name="background_light">#FFFFFF</color> <!-- General background color -->
+    <color name="surface_light">#F0F0F0</color> <!-- Surface (cards, sheets, etc.) -->
+
+    <!-- Text and icon colors -->
+    <color name="text_primary_light">#000000</color> <!-- Primary text color -->
+    <color name="text_secondary_light">#666666</color> <!-- Secondary text color -->
+
+    <!-- Primary brand colors -->
+    <color name="primary_dark">#121212</color> <!-- Main background color (dark grey/black) -->
+    <color name="primary_variant_dark">#1E1E1E</color> <!-- Darker variant for highlights -->
+    <color name="on_primary_dark">#FFFFFF</color> <!-- Text on primary background (white) -->
+
+    <!-- Secondary colors -->
+    <color name="secondary_dark">#BB86FC</color> <!-- Accent color (purple) -->
+    <color name="on_secondary_dark">#000000</color> <!-- Text on secondary background (black) -->
+
+    <!-- Error color -->
+    <color name="error_red">#FF5733</color>
+    <color name="error_dark">#CF6679</color>
+    <color name="on_error_dark">#000000</color>
+
+    <!-- Background and surface colors -->
+    <color name="background_dark">#121212</color> <!-- General background color -->
+    <color name="surface_dark">#1E1E1E</color> <!-- Surface (cards, sheets, etc.) -->
+
+    <!-- Text and icon colors -->
+    <color name="text_primary_dark">#FFFFFF</color> <!-- Primary text color -->
+    <color name="text_secondary_dark">#B3B3B3</color> <!-- Secondary text color -->
+
+</resources>
